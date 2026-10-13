@@ -1,20 +1,14 @@
 import java.util.Stack;
-
-public class StackExample { 
-    public static void main(String[] args) { 
-        
-        Stack<Integer> stack = new Stack<>(); 
-        
-        stack.push(10); 
-        stack.push(20); 
-        stack.push(30); 
-        
-        System.out.println("Stack : " + stack); 
-        
-        // 2. Fixed the typo in "elemnts"
-        System.out.println("Top element : " + stack.peek()); 
-        
-        stack.pop(); 
-        System.out.println("After pop : " + stack); 
-    } 
+public class StackExample {
+    public static void main(String[]args) {
+ Stack<Integer> s = new Stack<>();
+ s.push(10);
+ s.push(20);
+ s.push(30);
+ System.out.println("Stack : " + s);
+ System.out.println("top element : " + s.peek());
+ s.pop();
+ System.out.println("After pop :" + s);
+    
+    }
 }
